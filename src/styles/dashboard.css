@@ -1,0 +1,165 @@
+/* Main Container */
+.main-container {
+    padding: 10vh 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1e1e1e, #3a3a3a); 
+    overflow: hidden;
+}
+
+/* Dashboard Content */
+.dashboard-content {
+    display: flex;
+    gap: 2rem;
+    margin-left: 2vw;
+    max-width: 35vh;
+}
+
+/* Dashboard Section */
+.dashboard {
+    flex: 3; 
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 4vh 3vw;
+    color: #fff;
+    text-align: center;
+}
+
+.dashboard h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 4vh;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.balance-info {
+    margin-bottom: 4vh;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #20c0ff;
+}
+
+.withdraw-section, .transfer-section {
+    margin-bottom: 4vh;
+    width: 100%;
+    text-align: left;
+}
+
+.withdraw-section h2, .transfer-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2vh;
+    color: #7a5afc;
+}
+
+.dashboard input {
+    border-radius: 12px;
+    background-color: #2e2e2e;
+    color: #fff;
+    padding: 1vh;
+    border: 1px solid #444;
+    margin-bottom: 2vh;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.dashboard input:focus {
+    outline: none;
+    border-color: #20c0ff;
+    box-shadow: 0 0 5px #20c0ff;
+}
+
+.dashboard button {
+    width: 100%;
+    padding: 1rem;
+    background: linear-gradient(135deg, #20c0ff 0%, #7a5afc 100%);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-bottom: 3vh;
+}
+
+.dashboard button:hover {
+    background: linear-gradient(135deg, #20adff 0%, #935afc 100%);
+    transform: scale(1.05);
+}
+
+/* Transaction History */
+.transaction-history {
+    margin-top: 4vh;
+    width: 100%;
+    text-align: left;
+}
+
+.transaction-history h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2vh;
+    color: #20c0ff;
+}
+
+.transaction-history ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.transaction-history li {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1vh;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.transaction-history li p {
+    margin: 0.5vh 0;
+}
+
+.transaction-history li p strong {
+    color: #7a5afc;
+}
+.news{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2vh;
+    border-radius: 16px;
+}
+/* News Section */
+.news-section {
+    flex: 1; 
+    border-radius: 16px;
+    background: rgba(141, 63, 63, 0.1);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    color: #fff;
+    text-align: left;
+    min-height: 22vh;
+
+    background-image: url(atm-news.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: auto; 
+    border-radius: 16px; 
+}
+
+.news-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #20c0ff;
+}
+
+.news-section p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}

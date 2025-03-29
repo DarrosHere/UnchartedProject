@@ -1,0 +1,3 @@
+[submodule "my-bank-api"]
+	path = my-bank-api
+	url = https://github.com/DarrosHere/UnchartedZone-Bank-App.git
