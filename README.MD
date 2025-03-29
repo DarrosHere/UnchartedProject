@@ -38,6 +38,19 @@ Here, your money is **never truly safe**, but at least we make it fun! 😎
 4. **Open it in your browser:**  
     👉 [http://localhost:3000](http://localhost:3000)
 
+5. **Create a .env file in the my-bank-api directory of the project. This file will store sensitive configurations for the backend, including the JWT token and MongoDB connection URI. Here's an example:**
+```bash
+MONGO_URI=mongodb+srv: bla bla bla
+JWT_SECRET=mysecretkey
+    ```
+6 **Install dependencies:**  
+    ```bash
+    npm install
+    ```
+7. **Start:**  
+    ```bash
+    node server.js
+    ```
 ---
 
 ## 📸 Screenshots  
